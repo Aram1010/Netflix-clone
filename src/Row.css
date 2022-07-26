@@ -1,0 +1,80 @@
+.row {
+  color: #ffff;
+  margin: 0 10px;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px 10px 20px 0px;
+}
+
+.row_parent , .row_parent_netflix {
+  width: 100%;
+  margin-right: 10px;
+  max-width: 150px;
+  position: relative;
+}
+
+.row_parent_netflix {
+  min-width: 250px !important;
+}
+
+.row_parent > p {
+  font-weight: 600;
+}
+
+.row_poster , .row_poster_netflix {
+  object-fit: contain;
+  max-width: 200px;
+  max-height: 200px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.row_poster_netflix {
+  object-fit: cover;
+  min-width: 100%;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+.row_poster_netflix:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.vote {
+  position: absolute;
+  background-color: #FFB10A;
+  padding: 5px 10px;
+  border-radius: 20px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row:nth-child(1) {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 3200px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

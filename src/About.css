@@ -1,0 +1,98 @@
+body {
+  background-color: #191932;
+}
+
+.about {
+  color: #ffff;
+  object-fit: contain;
+  height: 500px;
+  position: relative;
+}
+
+.about > img {
+  width: 100%;
+}
+
+.fading_banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(25, 25, 50, 0.61),
+    #191932
+  );
+}
+
+.aboutOverview {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: 75vw;
+  z-index: 10;
+}
+
+.aboutOverview > h2 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  margin: 0 0 10px 0;
+}
+
+.aboutOverview > .release {
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.reviewStar {
+  display: flex;
+  align-items: center;
+  margin: 0 0 8px 0;
+}
+
+.reviewStar > img {
+  max-width: 20px;
+  margin-right: 5px;
+}
+
+.overview {
+  width: 100%;
+  max-width: 50rem;
+}
+
+.row_about {
+  margin-top: 50px;
+}
+
+.playButton {
+  border: none;
+  color: #ffff;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+  z-index: 101;
+}
+
+.playButton > p {
+  margin: 0 .5rem;
+}
+
+.youtubeTrailer {
+  position: relative;
+  z-index: 100;
+}
+
+.aboutParent::-webkit-scrollbar {
+  display: none;
+}
