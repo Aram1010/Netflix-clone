@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Row from "./Row";
 import requests from "./Request";
-import Banner from "./Banner";
 
-function Home(props) {
+function Home() {
   useEffect(() => {
     const navigation = document.querySelector(".navigation");
     navigation.style.background = "#191932";

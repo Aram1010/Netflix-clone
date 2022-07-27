@@ -1,9 +1,8 @@
-import React, { useCallback } from "react";
-import { useState, useEffect, createContext } from "react";
+import React from "react";
+import { useState, useEffect } from "react";
 import axios from "./axios";
 import "./Row.css";
-import { Link, Route, Router, Routes } from "react-router-dom";
-import About from "./About";
+import { Link } from "react-router-dom";
 
 export const base_url = "https://image.tmdb.org/t/p/original/";
 

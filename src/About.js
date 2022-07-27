@@ -1,6 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Row, { base_url } from "./Row";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import "./About.css";
 import starImage from "./assets/star.png";
 import requests from "./Request";
@@ -88,7 +88,11 @@ function About() {
             </div>
             <p className="overview">{movie.overview}</p>
           </div>
-          <button className="playButton" style={ isPlayed ? {bottom: "5rem"} : {bottom: "0"}} onClick={() => renderTrailer()}>
+          <button
+            className="playButton"
+            style={isPlayed ? { bottom: "5rem" } : { bottom: "0" }}
+            onClick={() => renderTrailer()}
+          >
             {isPlayed ? (
               <CloseIcon fontSize="medium" />
             ) : (
