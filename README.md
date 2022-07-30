@@ -24,7 +24,7 @@ mainly the projects Aim was to create a Netflix clone with being able to play tr
 <img src="https://github.com/10Arman10/Netflix-clone/blob/main/src/assets/HomeScreenShot.png" />
 
 - Selected Movie Section
-  - Main page when movie is Selected
+  - Selected Movie Section when movie is Selected
     - <img src="https://github.com/10Arman10/Netflix-clone/blob/main/src/assets/MovieSelectScreenShot.png" width="49%"/>
-  - Main page when you click Play on the play button
+  - Selected Movie Section when you click Play on the play button
     - <img src="https://github.com/10Arman10/Netflix-clone/blob/main/src/assets/TrailerPlayScreenShot.png" width="49%"/>
