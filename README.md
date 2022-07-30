@@ -4,7 +4,7 @@ this project is my first time really creating a project with React js and so far
 
 * What was the projects AIM
 
-mainly the projects Aim was to create a Netflix clone with being able to play trailers get the reviews and get the descripption about the movie and the best part about it it updates constatly because I am using the TMDB API --- #https://developers.themoviedb.org/3/getting-started (DOCUMENTATION)---
+mainly the projects Aim was to create a Netflix clone with being able to play trailers get the reviews and get the descripption about the movie and the best part about it it updates constatly because I am using the TMDB API to fetch the Movies --- #https://developers.themoviedb.org/3/getting-started (DOCUMENTATION)---
 
 * Technologies
 
