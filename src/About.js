@@ -31,9 +31,7 @@ function About() {
   const opts = {
     width: "100%",
     height: "500",
-    playerVars: {
-      autoplay: 1,
-    },
+
   };
 
   const renderTrailer = async () => {
