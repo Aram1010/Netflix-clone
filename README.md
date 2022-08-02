@@ -1,6 +1,6 @@
 # Netflix clone
 
-- link to netflix clone app https://netflix-clone-ce612.web.app/
+- link to Netflix clone app https://netflix-clone-ce612.web.app/
 
 this project is my first time really creating a project with React js and so far I cant find anything to dislike because before I was mainly a Vanilla JavaScripts developer and now to learn React js its like a new realm.
 
