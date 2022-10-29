@@ -17,7 +17,7 @@ mainly the projects Aim was to create a Netflix clone with being able to play tr
   <img src="https://firebase.google.com/images/social.png" width="128" alt="Firebase"/>
   <img src="https://i.pinimg.com/736x/e4/3e/4c/e43e4cd41ddffc21d2e6600dfca20306--logo-software-logotype.jpg" width="128" alt="Css"/>
   <img src="https://miro.medium.com/max/1046/1*h1sx53cAAHZukOZt0QPEXA.png" width="200" alt="react-youtube"/>
-  <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" width="200" alt="TMDB API"/>
+  <img src=" 10Arman10/social_media_app" width="200" alt="TMDB API"/>
 </div>
 
 # Preview
